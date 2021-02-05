@@ -8,6 +8,7 @@ public class Application {
         String carNames = scanner.next();
         System.out.print("Enter round : ");
         int round = scanner.nextInt();
+        System.out.println();
 
         String[] names = carNames.split(",");
         Car[] cars = new Car[names.length];
@@ -16,5 +17,7 @@ public class Application {
         }
 
         Game game = new Game(cars, round);
+        game.run();
+        game.end();
     }
 }
