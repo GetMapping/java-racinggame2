@@ -1,5 +1,5 @@
 public class Check {
-    public void inputCheck(){
+    public void inputCheck(String carNames, int round) {
 
     }
 }

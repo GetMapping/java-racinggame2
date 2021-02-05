@@ -7,6 +7,8 @@
     <list default="true" id="6652f226-d7bc-478a-a76d-0751c3f5e5c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Check.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612492105935</updated>
-      <workItem from="1612492107931" duration="5664000" />
+      <workItem from="1612492107931" duration="12784000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1612493620298</created>
@@ -102,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612496077292</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat : Game클래스의 run메소드와 결과 출력 메소드추가">
+      <created>1612520842084</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612520842084</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +121,7 @@
     <MESSAGE value="git init" />
     <MESSAGE value="feat : Car 객체 메소드 구현" />
     <MESSAGE value="feat : 랜덤수 만드는 메소드 추가&#10;feat : 게임 결과 출력 메소드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 랜덤수 만드는 메소드 추가&#10;feat : 게임 결과 출력 메소드 추가" />
+    <MESSAGE value="feat : Game클래스의 run메소드와 결과 출력 메소드추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Game클래스의 run메소드와 결과 출력 메소드추가" />
   </component>
 </project>

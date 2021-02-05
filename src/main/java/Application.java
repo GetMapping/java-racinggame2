@@ -1,8 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Application {
     public static void main(String[] args) {
         final Scanner scanner = new Scanner(System.in);
+        Check check = new Check();
 
         System.out.print("Enter car name : ");
         String carNames = scanner.next();
@@ -11,9 +14,9 @@ public class Application {
         System.out.println();
 
         String[] names = carNames.split(",");
-        Car[] cars = new Car[names.length];
-        for (int i = 0; i < names.length; i++){
-            cars[i] = new Car(names[i]);
+        List<Car> cars = new ArrayList<>();
+        for (String name : names) {
+            cars.add(new Car(name));
         }
 
         Game game = new Game(cars, round);

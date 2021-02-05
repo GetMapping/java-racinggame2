@@ -3,10 +3,10 @@ import java.util.List;
 import java.util.Random;
 
 public class Game {
-    private final Car[] cars;
+    private final List<Car> cars;
     private final int round;
 
-    public Game(Car[] cars, int round) {
+    public Game(List<Car> cars, int round) {
         this.cars = cars;
         this.round = round;
     }
@@ -36,7 +36,7 @@ public class Game {
         }
     }
 
-    public void printResult(Car[] cars) {
+    public void printResult(List<Car> cars) {
         for (Car car : cars) {
             System.out.print(car.getName() + " ");
             printPositionBar(car.getPosition());
@@ -51,8 +51,8 @@ public class Game {
         System.out.println(bar);
     }
 
-    public int getMaxPosition(Car[] cars) {
-        int maxPosition = cars[0].getPosition();
+    public int getMaxPosition(List<Car> cars) {
+        int maxPosition = (cars.get(0)).getPosition();
         for (Car car : cars) {
             if (car.getPosition() >= maxPosition) {
                 maxPosition = car.getPosition();
@@ -61,7 +61,7 @@ public class Game {
         return maxPosition;
     }
 
-    public void printWinner(Car[] cars) {
+    public void printWinner(List<Car> cars) {
         List<String> winner = new ArrayList<>();
         for (Car car : cars) {
             if (getMaxPosition(cars) == car.getPosition()) {

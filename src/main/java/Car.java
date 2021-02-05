@@ -6,15 +6,15 @@ public class Car {
         this.name = name;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public int getPosition(){
+    public int getPosition() {
         return position;
     }
 
-    public void goStraight(){
+    public void goStraight() {
         position++;
     }
 }
